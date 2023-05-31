@@ -19,10 +19,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Sayıyı Giriniz: ");
-        int b = input.nextInt();
+while (true){
+    Scanner input = new Scanner(System.in);
+    System.out.print("Sayıyı Giriniz: ");
+    int b = input.nextInt();
 
-        prime(b);
+    prime(b);
+}
     }
 }
